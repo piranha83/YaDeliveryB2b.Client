@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="MSTest" Version="3.6.4" />
+    <PackageReference Include="YaDeliveryB2b.Client" Version="*" />
   </ItemGroup>
   <ItemGroup>
     <None Update="appsettings.test.json">
@@ -20,9 +21,6 @@
   </ItemGroup>
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\src\YaDeliveryB2b.Client.csproj" />
   </ItemGroup>
 
 </Project>
