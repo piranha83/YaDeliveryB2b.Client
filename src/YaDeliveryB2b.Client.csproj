@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <!-- NuGet Metadata -->
     <PackageId>YaDeliveryB2b.Client</PackageId>
-    <Version>0.0.1</Version>
+    <Version>1.0.0</Version>
     <Authors>Vadim Sklyarov</Authors>
     <Description>YaDelivery B2B Platform APIs client.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
