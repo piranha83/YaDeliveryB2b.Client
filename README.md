@@ -56,6 +56,7 @@ var client = serviceProvider.GetRequiredService<IYaDeliveryB2bClient>();
 {
   "YaDeliveryB2bApi": {
     "Url": "https://b2b.taxi.tst.yandex.net", // test
+    "Token": "" // https://yandex.ru/support/delivery-profile/ru/api/
   }
 }
 ```
