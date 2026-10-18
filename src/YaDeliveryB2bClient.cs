@@ -25,7 +25,7 @@ namespace YaDeliveryB2b.Client
     using System = global::System;
 
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial interface IYaDeliveryB2bClient
+    public partial interface IYaDeliveryB2bClient
     {
         /// <summary>
         /// 1. Расчёт стоимости доставки
@@ -158,7 +158,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class YaDeliveryB2bClient : IYaDeliveryB2bClient
+    public partial class YaDeliveryB2bClient : IYaDeliveryB2bClient
     {
         private System.Net.Http.HttpClient _httpClient;
         private static System.Lazy<System.Text.Json.JsonSerializerOptions> _settings = new System.Lazy<System.Text.Json.JsonSerializerOptions>(CreateSerializerSettings, true);
@@ -1049,7 +1049,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Body
+    public partial class Body
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("client_price")]
@@ -1085,7 +1085,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Body2
+    public partial class Body2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("info")]
@@ -1124,7 +1124,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Body3
+    public partial class Body3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("offer_id")]
@@ -1142,7 +1142,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Body4
+    public partial class Body4
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("request_id")]
@@ -1160,7 +1160,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Body5
+    public partial class Body5
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("from")]
@@ -1181,7 +1181,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response
+    public partial class Response
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("pricing_total")]
@@ -1202,7 +1202,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response2
+    public partial class Response2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("offers")]
@@ -1220,7 +1220,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response3
+    public partial class Response3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("offers")]
@@ -1238,7 +1238,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response4
+    public partial class Response4
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("request_id")]
@@ -1256,7 +1256,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response5
+    public partial class Response5
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("route_id")]
@@ -1301,7 +1301,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response6
+    public partial class Response6
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("status")]
@@ -1325,7 +1325,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response7
+    public partial class Response7
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("requests")]
@@ -1343,7 +1343,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Response8
+    public partial class Response8
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("state_history")]
@@ -1361,7 +1361,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Destination
+    public partial class Destination
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("address")]
@@ -1379,7 +1379,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Source
+    public partial class Source
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_station_id")]
@@ -1397,7 +1397,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Info
+    public partial class Info
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("operator_request_id")]
@@ -1418,7 +1418,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Source2
+    public partial class Source2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_station")]
@@ -1436,7 +1436,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Destination2
+    public partial class Destination2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("type")]
@@ -1460,7 +1460,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Items
+    public partial class Items
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("count")]
@@ -1496,7 +1496,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Places
+    public partial class Places
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("physical_dims")]
@@ -1520,7 +1520,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Billing_info
+    public partial class Billing_info
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("payment_method")]
@@ -1538,7 +1538,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Recipient_info
+    public partial class Recipient_info
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("first_name")]
@@ -1562,7 +1562,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Offers
+    public partial class Offers
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("from")]
@@ -1583,7 +1583,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Offers2
+    public partial class Offers2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("offer_id")]
@@ -1610,7 +1610,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Request
+    public partial class Request
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("info")]
@@ -1655,7 +1655,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class State
+    public partial class State
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("status")]
@@ -1682,7 +1682,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Requests
+    public partial class Requests
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("route_id")]
@@ -1724,7 +1724,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class State_history
+    public partial class State_history
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("status")]
@@ -1751,7 +1751,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Platform_station
+    public partial class Platform_station
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_id")]
@@ -1769,7 +1769,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Platform_station2
+    public partial class Platform_station2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_id")]
@@ -1787,7 +1787,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Interval_utc
+    public partial class Interval_utc
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("from")]
@@ -1808,7 +1808,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Billing_details
+    public partial class Billing_details
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("unit_price")]
@@ -1829,7 +1829,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Physical_dims
+    public partial class Physical_dims
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("predefined_volume")]
@@ -1850,7 +1850,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Physical_dims2
+    public partial class Physical_dims2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("predefined_volume")]
@@ -1868,7 +1868,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Offer_details
+    public partial class Offer_details
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("delivery_interval")]
@@ -1898,7 +1898,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Info2
+    public partial class Info2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("comment")]
@@ -1922,7 +1922,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Source3
+    public partial class Source3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_station")]
@@ -1940,7 +1940,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Destination3
+    public partial class Destination3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("type")]
@@ -1967,7 +1967,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Items2
+    public partial class Items2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("count")]
@@ -2006,7 +2006,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Places2
+    public partial class Places2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("physical_dims")]
@@ -2027,7 +2027,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Billing_info2
+    public partial class Billing_info2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("payment_method")]
@@ -2048,7 +2048,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Recipient_info2
+    public partial class Recipient_info2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("first_name")]
@@ -2075,7 +2075,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Available_actions
+    public partial class Available_actions
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("update_dates_available")]
@@ -2114,7 +2114,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Delivery_policy
+    public partial class Delivery_policy
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("min")]
@@ -2138,7 +2138,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Request2
+    public partial class Request2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("info")]
@@ -2177,7 +2177,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class State2
+    public partial class State2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("status")]
@@ -2204,7 +2204,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Delivery_interval
+    public partial class Delivery_interval
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("min")]
@@ -2228,7 +2228,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Pickup_interval
+    public partial class Pickup_interval
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("min")]
@@ -2249,7 +2249,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Platform_station3
+    public partial class Platform_station3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_id")]
@@ -2267,7 +2267,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Platform_station4
+    public partial class Platform_station4
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_id")]
@@ -2285,7 +2285,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Interval
+    public partial class Interval
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("from")]
@@ -2306,7 +2306,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Interval_utc2
+    public partial class Interval_utc2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("from")]
@@ -2327,7 +2327,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Billing_details2
+    public partial class Billing_details2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("nds")]
@@ -2351,7 +2351,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Physical_dims3
+    public partial class Physical_dims3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("dx")]
@@ -2375,7 +2375,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Physical_dims4
+    public partial class Physical_dims4
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("dx")]
@@ -2402,7 +2402,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Info3
+    public partial class Info3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("comment")]
@@ -2426,7 +2426,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Source4
+    public partial class Source4
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_station")]
@@ -2444,7 +2444,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Destination4
+    public partial class Destination4
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("type")]
@@ -2471,7 +2471,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Items3
+    public partial class Items3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("count")]
@@ -2510,7 +2510,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Places3
+    public partial class Places3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("physical_dims")]
@@ -2531,7 +2531,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Billing_info3
+    public partial class Billing_info3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("payment_method")]
@@ -2552,7 +2552,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Recipient_info3
+    public partial class Recipient_info3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("first_name")]
@@ -2576,7 +2576,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Platform_station5
+    public partial class Platform_station5
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_id")]
@@ -2594,7 +2594,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Platform_station6
+    public partial class Platform_station6
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("platform_id")]
@@ -2612,7 +2612,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Interval2
+    public partial class Interval2
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("from")]
@@ -2633,7 +2633,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Interval_utc3
+    public partial class Interval_utc3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("from")]
@@ -2654,7 +2654,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Billing_details3
+    public partial class Billing_details3
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("nds")]
@@ -2678,7 +2678,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Physical_dims5
+    public partial class Physical_dims5
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("dx")]
@@ -2702,7 +2702,7 @@ namespace YaDeliveryB2b.Client
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]
-    internal partial class Physical_dims6
+    public partial class Physical_dims6
     {
 
         [System.Text.Json.Serialization.JsonPropertyName("dx")]
