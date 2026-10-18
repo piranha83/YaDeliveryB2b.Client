@@ -1,0 +1,20 @@
+{
+  "name": "ASP.NET Core Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:9.0",
+  "containerUser": "vscode",
+  "remoteUser": "vscode",
+  "forwardPorts": [7255],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    },
+    "postCreateCommand": "dotnet restore",
+    "waitFor": "postCreateCommand",
+    "initializeCommand": "echo \"Dev Container initialized\""
+  }
+}
