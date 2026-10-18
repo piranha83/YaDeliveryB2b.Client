@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug .NET App",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/test/bin/Debug/net9.0/YaDeliveryB2b.Client.Test.dll",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
+}
