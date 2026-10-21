@@ -25,7 +25,9 @@ public static class Extensions
         ArgumentNullException.ThrowIfNull(serviceCollection);
         ArgumentNullException.ThrowIfNull(configuration);
 
-        serviceCollection.AddTransient<YaDeliveryB2bSandboxHandler>().AddHttpClient<IYaDeliveryB2bClient, YaDeliveryB2bClient>((sp, client) =>
+        serviceCollection.AddKeyedSingleton<IAuthenticationHeaderManger, SandboxManger>(nameof(SandboxManger));
+
+        serviceCollection.AddTransient<YaDeliveryB2bHandler>().AddHttpClient<IYaDeliveryB2bClient, YaDeliveryB2bClient>((sp, client) =>
         {
             var options = sp.GetRequiredService<IOptions<YaDeliveryB2bSandboxOption>>();
             ArgumentNullException.ThrowIfNullOrWhiteSpace(options.Value.Url);
@@ -33,7 +35,7 @@ public static class Extensions
             client.BaseAddress = new Uri(options.Value.Url);
             client.DefaultRequestHeaders.UserAgent.ParseAdd("YaDeliveryB2bApiClient");
         })
-        .AddHttpMessageHandler<YaDeliveryB2bSandboxHandler>()
+        .AddHttpMessageHandler<YaDeliveryB2bHandler>()
         .AddPolicyHandler(Create())
         .SetHandlerLifetime(Timeout.InfiniteTimeSpan)
         .ConfigurePrimaryHttpMessageHandler(sp => Create(sp.GetRequiredService<IOptions<YaDeliveryB2bSandboxOption>>()));
