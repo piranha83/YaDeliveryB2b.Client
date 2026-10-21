@@ -11,6 +11,11 @@ internal class YaDeliveryB2bOption
     public string Url { get; set; } = default!;
 
     /// <summary>
+    /// Тип.
+    /// </summary>
+    public string Type { get; set; } = default!;
+
+    /// <summary>
     /// Сетевые настройки.
     /// </summary>
     public YaDeliveryB2bSettings Settings { get; set; } = new();

@@ -25,6 +25,8 @@ public static class Extensions
         ArgumentNullException.ThrowIfNull(serviceCollection);
         ArgumentNullException.ThrowIfNull(configuration);
 
+        serviceCollection.AddKeyedSingleton<IAuthenticationHeaderManger, SandboxManger>(nameof(SandboxManger));
+
         serviceCollection.AddTransient<YaDeliveryB2bSandboxHandler>().AddHttpClient<IYaDeliveryB2bClient, YaDeliveryB2bClient>((sp, client) =>
         {
             var options = sp.GetRequiredService<IOptions<YaDeliveryB2bSandboxOption>>();
